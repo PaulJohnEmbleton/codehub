@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deploy", "Deploy", "{9D9BF39B-0FDA-4BC5-B4B0-BD9B7C5FEF0D}"
+	ProjectSection(SolutionItems) = preProject
+		#AppName.#AppType.#CusName.Deployment\#AppName.#AppType.#CusName.Deployment.btdfproj = #AppName.#AppType.#CusName.Deployment\#AppName.#AppType.#CusName.Deployment.btdfproj
+		#AppName.#AppType.#CusName.Deployment\InstallWizard.xml = #AppName.#AppType.#CusName.Deployment\InstallWizard.xml
+		#AppName.#AppType.#CusName.Deployment\License.rtf = #AppName.#AppType.#CusName.Deployment\License.rtf
+		#AppName.#AppType.#CusName.Deployment\PortBindingsMaster.xml = #AppName.#AppType.#CusName.Deployment\PortBindingsMaster.xml
+		#AppName.#AppType.#CusName.Deployment\EnvironmentSettings\SettingsFileGenerator.xml = #AppName.#AppType.#CusName.Deployment\EnvironmentSettings\SettingsFileGenerator.xml
+		#AppName.#AppType.#CusName.Deployment\UnInstallWizard.xml = #AppName.#AppType.#CusName.Deployment\UnInstallWizard.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#AppName.#AppType.#CusName.Helpers", "#AppName.#AppType.#CusName.Helpers\#AppName.#AppType.#CusName.Helpers.csproj", "{80032680-0400-47B8-99A4-95FB6703FC25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#AppName.#AppType.#CusName.Schemas", "#AppName.#AppType.#CusName.Schemas\#AppName.#AppType.#CusName.Schemas.btproj", "{6E3438DE-7852-4DEE-979D-AEA57082EC7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#AppName.#AppType.#CusName.Maps", "#AppName.#AppType.#CusName.Maps\#AppName.#AppType.#CusName.Maps.btproj", "{B48FA249-5C8A-49E6-A59A-C106A2E98672}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#AppName.#AppType.#CusName.Orchestrations", "#AppName.#AppType.#CusName.Orchestrations\#AppName.#AppType.#CusName.Orchestrations.btproj", "{DCB74498-CE9F-4ABD-9AD2-EE54687AAA57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#AppName.#AppType.#CusName.PipelineComponents", "#AppName.#AppType.#CusName.PipelineComponents\#AppName.#AppType.#CusName.PipelineComponents.csproj", "{7FE9EE5C-D5E8-4481-B95C-9838E79BEAD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#AppName.#AppType.#CusName.Pipelines", "#AppName.#AppType.#CusName.Pipelines\#AppName.#AppType.#CusName.Pipelines.btproj", "{A3BDDADC-9845-4D83-857D-69825F2E5C34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#AppName.#AppType.#CusName.Maps.Tests", "#AppName.#AppType.#CusName.Maps.Tests\#AppName.#AppType.#CusName.Maps.Tests.csproj", "{500612FB-C881-4A09-AC88-ECE61D290A9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "#AppName.#AppType.#CusName.Schemas.Tests", "#AppName.#AppType.#CusName.Schemas.Tests\#AppName.#AppType.#CusName.Schemas.Tests.csproj", "{100DB36F-CC6B-48C2-BF2B-EDE8DE746913}"
+EndProject
+
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E3438DE-7852-4DEE-979D-AEA57082EC7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E3438DE-7852-4DEE-979D-AEA57082EC7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E3438DE-7852-4DEE-979D-AEA57082EC7B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6E3438DE-7852-4DEE-979D-AEA57082EC7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E3438DE-7852-4DEE-979D-AEA57082EC7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E3438DE-7852-4DEE-979D-AEA57082EC7B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B48FA249-5C8A-49E6-A59A-C106A2E98672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B48FA249-5C8A-49E6-A59A-C106A2E98672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B48FA249-5C8A-49E6-A59A-C106A2E98672}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B48FA249-5C8A-49E6-A59A-C106A2E98672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B48FA249-5C8A-49E6-A59A-C106A2E98672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B48FA249-5C8A-49E6-A59A-C106A2E98672}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DCB74498-CE9F-4ABD-9AD2-EE54687AAA57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCB74498-CE9F-4ABD-9AD2-EE54687AAA57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCB74498-CE9F-4ABD-9AD2-EE54687AAA57}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DCB74498-CE9F-4ABD-9AD2-EE54687AAA57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCB74498-CE9F-4ABD-9AD2-EE54687AAA57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCB74498-CE9F-4ABD-9AD2-EE54687AAA57}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A3BDDADC-9845-4D83-857D-69825F2E5C34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3BDDADC-9845-4D83-857D-69825F2E5C34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3BDDADC-9845-4D83-857D-69825F2E5C34}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A3BDDADC-9845-4D83-857D-69825F2E5C34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3BDDADC-9845-4D83-857D-69825F2E5C34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3BDDADC-9845-4D83-857D-69825F2E5C34}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{500612FB-C881-4A09-AC88-ECE61D290A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{500612FB-C881-4A09-AC88-ECE61D290A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{500612FB-C881-4A09-AC88-ECE61D290A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{500612FB-C881-4A09-AC88-ECE61D290A9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{100DB36F-CC6B-48C2-BF2B-EDE8DE746913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{100DB36F-CC6B-48C2-BF2B-EDE8DE746913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{100DB36F-CC6B-48C2-BF2B-EDE8DE746913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{100DB36F-CC6B-48C2-BF2B-EDE8DE746913}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
